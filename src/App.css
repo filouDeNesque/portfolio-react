@@ -1,1 +1,14 @@
-.App{}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+.App{
+  /*font family space mono sans serif*/
+  /*color bg-main-color:white
+   *      text-main-color:black
+   * */
+font-family: 'Space Mono', monospace;
+}
+
+h1{
+  font-size:30px;
+}

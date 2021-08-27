@@ -1,1 +1,44 @@
-.Header{}
+.Header{
+  position:fixed;
+  width:100%;
+  padding-left:5%;
+}
+
+.contact-float-right{
+  position:fixed;
+  right:5%;
+  top:5%;
+  list-style:none;
+}
+
+li{
+  position: relative;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  margin-bottom: 2em;
+  border: solid black 1px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+li:hover{
+  top:-5px;
+  filter: invert(1);
+  background-color:white;
+  animation-name: upli;
+  animation-duration:0.2s;
+}
+
+@keyframes upli{
+  from{
+    top: 0;
+  }
+  to{
+    top:-5px;
+    background-color:white;
+  }
+}
