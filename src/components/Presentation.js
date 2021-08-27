@@ -1,4 +1,5 @@
 import './Presentation.css';
+import presentationText from "./Presentation.json"
 
 function Presentation() {
   return (
