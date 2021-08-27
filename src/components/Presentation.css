@@ -1,3 +1,18 @@
 .Presentation{
+  padding: 5% 17% 0 17%;
+}
+
+.Presentation h2{
+  font-size: 80px;
+  font-weight: normal;
+}
+
+.Presentation h3{
+  font-size: 50px;
+
+  font-weight: normal;
+}
+.Presentation p{
+  font-size: 14px;
 
 }
