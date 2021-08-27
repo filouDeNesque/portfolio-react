@@ -9,10 +9,22 @@
 
 .Presentation h3{
   font-size: 50px;
-
-  font-weight: normal;
+  
+  font-weight:bold ;
 }
 .Presentation p{
   font-size: 14px;
-
+  line-height: 2em;
+  letter-spacing: 2px;
 }
+.more-infos-section{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15em;
+}
+.column-right{
+  display: flex;
+  flex-direction: column;
+  max-width:65%;
+}
+
