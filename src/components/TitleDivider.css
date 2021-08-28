@@ -1,0 +1,11 @@
+.TitleDivider{
+  padding: 5% 17% 0 17%;
+} 
+
+.TitleDivider h2{
+  color: white;
+  text-shadow: -9px 5px 15px rgb(0 0 0 / 19%);
+  font-size: 150px;
+  text-align: center;
+
+}
