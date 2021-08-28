@@ -1,0 +1,16 @@
+.PresentationData{
+display:flex;
+justify-content:space-between;
+}
+
+.dataColumn{
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+}
+
+.dataColumn h2{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
