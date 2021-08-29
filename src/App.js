@@ -2,6 +2,8 @@ import './App.css';
 import Header from './components/Header';
 import Presentation from './components/Presentation';
 import TitleDivider from './components/TitleDivider';
+import Technologie from './components/Technologie';
+
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
     <Header />
     <Presentation />
     <TitleDivider title="FORMATION" />
-
+    <Technologie />
     <TitleDivider title="ECOLE" />
     <TitleDivider title="CONTACT" />
 
