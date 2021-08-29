@@ -1,0 +1,58 @@
+[{
+  "chapnumber":1,
+  "name": "Intro",
+  "items":[{
+    "key":"Architecte Logiciel",
+    "content":"Le cursus Architecte Logiciel vise l'acquisition d'une expertise dans la conception et la mise en œuvre de systèmes d'information distribués, en adéquation avec les standards actuels du marché (JakartaEE, FullJS, MicroServices, Intégration & Déploiement continus, cloud, qualimétrie et automatisation des tests). Les compétences et les savoir-faire acquis au cours de ce cursus permettent d’évoluer à court terme vers des responsabilités d’architecte logiciel."
+  }
+  ],
+  "moreinfos":""
+},
+{
+  "chapnumber":2,
+  "name": "Chiffre clef",
+  "items":[{
+    "key":"14",
+    "content":"mois de formation"
+  },
+  {
+    "key":"80",
+    "content":"jour hors entreprise" 
+  },
+  {
+    "key":"01/10/21",
+    "content":"date de début "
+  },
+  {
+    "key":"10/12/22",
+    "content":"date de fin" 
+  }
+  ],
+  "moreinfos":""
+},{
+"chapnumber":3,
+"name": "Recap",
+"items":[{
+  "key":"10",
+  "content":"10 mois en entreprise pour 4 mois de formation "
+},
+{
+  "key":"1",
+  "content":"Une seule alternance en formation durant la période en entreprise" 
+},
+{
+  "key":"Immédiatement",
+  "content":"Immédiatement opérationnel en entrée en entreprise "
+},
+{
+  "key":"Bac+5",
+  "content":"Diplôme bac+5 en sortie de contrat pro, valorisable par l’ entreprise pour attester des compétences acquises. " 
+},
+{
+  "key":"Coût",
+  "content":"Pas de coût supplémentaire pour l’entreprise en termes de coût de formation (11 euros/h pris en charge par l’OPCO : organisme financeur). " 
+}
+],
+"moreinfos":"N'hésitez pas à contacter l'Organisme Formateur pour tout renseignement supplémentaire tél: 01 73 00 70 90"
+}
+]

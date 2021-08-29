@@ -1,0 +1,95 @@
+[{
+  "categorie":"Front",
+  "items":[{
+    "name":"html",
+    "icone":""},{
+    "name":"css",
+    "icone":""},{
+    "name":"js",
+    "icone":""}
+  ]
+},
+{
+  "categorie":"Back",
+  "items":[{
+    "name":"java",
+    "icone":""},{
+    "name":"C#",
+    "icone":""},{
+    "name":"js",
+    "icone":""},{
+    "name":"python",
+    "icone":""}
+  ]
+},
+{
+  "categorie":"Framework",
+  "items":[{
+    "name":"jakartaEE",
+    "icone":""},{
+    "name":".net",
+    "icone":""},{
+    "name":"React",
+    "icone":""},{
+    "name":"VueJs",
+    "icone":""},{
+    "name":"Spring",
+    "icone":""},{
+    "name":"Hibernate",
+    "icone":""},{
+    "name":"Bootstrap",
+    "icone":""} 
+  ]
+},
+{
+  "categorie":"Api", 
+  "items":[{
+    "name":"leaflet",
+    "icone":""}
+  ]
+},
+{
+  "categorie":"Test / Integration", 
+  "items":[{
+    "name":"Jenkins",
+    "icone":""},{
+    "name":"Junit",
+    "icone":""},{
+    "name":"Mockito",
+    "icone":""}
+  ]
+},
+{
+  "categorie":"BDD", 
+  "items":[{
+    "name":"mongoDb",
+    "icone":""},{
+    "name":"SQL",
+    "icone":""}
+  ]
+},
+{
+  "categorie":"Cloud", 
+  "items":[{
+    "name":"aws",
+    "icone":""}
+  ]
+},
+{
+  "categorie":"Conception/ concept",
+  "items":[{
+    "name":"USMD",
+    "icone":""},{
+    "name":"UML",
+    "icone":""},{
+    "name":"Design patterns",
+    "icone":""},{
+    "name":"SOA",
+    "icone":""},{
+    "name":"SOP",
+    "icone":""},{
+    "name":"Rest",
+    "icone":""} 
+  ]
+}
+]            
