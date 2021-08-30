@@ -16,22 +16,16 @@ export class TechnologieDataListe extends React.Component{
   }
 
   componentDidUpdate(){
-    var arrayhtmlellement = []
-    arrayhtmlellement = this.container.current.children
-
     var basicTimeline = anime.timeline();
     basicTimeline
       .add({
-	targets:arrayhtmlellement,
-	translateX: [20,0],
-	backgroundColor: '#FFF',
-	duration: 800,
+	targets:this.container.current.children,
+	translateX: [600,20],
 	loop:true,
 	scale: [
 	  {value: .1, easing: 'easeOutSine', duration: 500},
 	  {value: 1, easing: 'easeInOutQuad', duration: 1200}
-	],
-	delay: anime.stagger(200, {grid: [14, 5], from: 'center'})
+	]
       });
   }
 
@@ -43,12 +37,12 @@ export class TechnologieDataListe extends React.Component{
   render(){ 
     return(
       <div className="TechnologieDataListe" >
-      <button
-      className="btn-techno-liste"
+      <a
+      className="btn-techno-liste btn btn-dark btn-mid"
       onClick={this.handleClick}>
       {this.props.categorie}
-      </button>
-      <div ref={this.container}>
+      </a>
+      <div ref={this.container} className="container-icone">
       { this.props.items.map(data=>(
 	<p 
 	className={this.state.isopen ? "items-techno show": "items-techno"} 
