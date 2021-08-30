@@ -19,11 +19,12 @@ export class TechnologieDataListe extends React.Component{
     var basicTimeline = anime.timeline();
     basicTimeline
       .add({
-	targets: this.myref.current,
-	translateX: 250,
+	targets:".show" ,
+	translateX: 20,
 	rotate: '1turn',
 	backgroundColor: '#FFF',
-	duration: 800
+	duration: 800,
+	delay:100
       })
       .add({
 	targets: ".items-techno",
@@ -34,13 +35,9 @@ export class TechnologieDataListe extends React.Component{
     ;
   }
 
-
   handleClick(){
     console.log("handle click isopen value : "+this.state.isopen)
     this.setState({ isopen : !this.state.isopen })
-    if(this.state.isopen){
-    }
-
   }
 
   render(){ 
