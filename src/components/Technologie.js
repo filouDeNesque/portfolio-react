@@ -10,16 +10,17 @@ export class Technologie extends  React.Component {
 
 
   render(){
-    return <>
+    return <div className="Technologie">
       <h1>Component Technologie </h1>
       <p>{TechnologieText[0].chapnumber}</p>
-      <p>{TechnologieData.map(data=>(
+
+      {TechnologieData.map(data=>(
 	<TechnologieDataListe 
 	categorie={data.categorie} 
 	items={data.items}/>
-      ))}</p>
+      ))}
 
-      </>;
+      </div>;
   }
 
 }
