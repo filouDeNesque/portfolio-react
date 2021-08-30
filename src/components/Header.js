@@ -10,9 +10,12 @@ function Header() {
 
     <ul className="contact-float-right">
 
-    <li style ={{backgroundImage:`url(${mail})`}} ></li>
-    <li style ={{backgroundImage:`url(${linkedin})`}} ></li>
-    <li style ={{backgroundImage:`url(${github})`}} ></li>
+    <li className="li-contact" 
+    style ={{backgroundImage:`url(${mail})`}} ></li>
+    <li className="li-contact" 
+    style ={{backgroundImage:`url(${linkedin})`}} ></li>
+    <li className="li-contact" 
+    style ={{backgroundImage:`url(${github})`}} ></li>
 
     </ul>
     </div>
