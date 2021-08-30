@@ -1,30 +1,59 @@
-import {useState} from "react";
+import React   from "react";
+import anime from 'animejs/lib/anime.es.js';
 import  "./TechnologieDataListe.css";
 
-export default function  TechnologieDataListe(props){
+export class TechnologieDataListe extends React.Component{
 
-  const [isopen, setIsOpen] = useState(false);
+  constructor(props){
+    super(props);
+    this.state= {isopen : false}; 
+    this.handleClick = this.handleClick.bind(this);
+  }
 
-  return(
+  componentDidMount(){
 
-    <div className="TechnologieDataListe">
-    <button
-    className="btn-techno-liste"
-    onClick={()=>setIsOpen(!isopen)}>
-    {props.categorie}
-    </button>
-    {isopen &&
-      props.items.map(data=>(
-	<p className="items-techno">  
+      anime({
+	targets: '.show',
+	translateX: 250,
+	rotate: '1turn',
+	backgroundColor: '#FFF',
+	duration: 800
+      });
+    }
+
+  handleClick(){
+    console.log("handle click")
+    this.setState({ isopen : !this.state.isopen })
+    anime({
+	targets: '.show',
+	translateX: 250,
+	rotate: '1turn',
+	backgroundColor: '#FFF',
+	duration: 800
+      });
+  }
+
+  render(){ 
+    return(
+      <div className="TechnologieDataListe">
+      <button
+      className="btn-techno-liste"
+      onClick={this.handleClick}>
+      {this.props.categorie}
+      </button>
+      { this.props.items.map(data=>(
+	<p 
+	className={this.state.isopen ? "items-techno show": "items-techno"} 
+	>  
 	<span className="iconeTechno" 
 	style ={{backgroundImage:`url(${data.icone})`}} />
 	{data.name}
 	</p>
       ))
-
-    }
-    </div>
-  )
+      }
+      </div>
+    )
+  }
 }	
 
-
+export default TechnologieDataListe;
