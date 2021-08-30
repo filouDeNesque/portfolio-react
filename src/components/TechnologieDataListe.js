@@ -8,9 +8,13 @@ export default function  TechnologieDataListe(props){
     <button> {props.categorie}</button>
 
     {props.items.map(data=>(
-      <p> {data.name}</p>
+      <p className="items-techno">  
+      <span className="iconeTechno" 
+      style ={{backgroundImage:`url(${data.icone})`}} />
+      {data.name}
+      </p>
     ))}
-    
+
     </div>
   )
 }	

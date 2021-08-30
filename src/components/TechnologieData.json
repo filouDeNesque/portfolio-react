@@ -2,94 +2,94 @@
   "categorie":"Front",
   "items":[{
     "name":"html",
-    "icone":""},{
+    "icone":"/IconeDataTechno/html5.png"},{
     "name":"css",
-    "icone":""},{
+    "icone":"/IconeDataTechno/css3.png"},{
     "name":"js",
-    "icone":""}
+    "icone":"/IconeDataTechno/js.png"}
   ]
 },
 {
   "categorie":"Back",
   "items":[{
     "name":"java",
-    "icone":""},{
+    "icone":"/IconeDataTechno/java.png"},{
     "name":"C#",
-    "icone":""},{
+    "icone":"/IconeDataTechno/c-sharp.png"},{
     "name":"js",
-    "icone":""},{
+    "icone":"/IconeDataTechno/js.png"},{
     "name":"python",
-    "icone":""}
+    "icone":"/IconeDataTechno/python.png"}
   ]
 },
 {
   "categorie":"Framework",
   "items":[{
     "name":"jakartaEE",
-    "icone":""},{
+    "icone":"/IconeDataTechno/java.png"},{
     "name":".net",
-    "icone":""},{
+    "icone":"/IconeDataTechno/ASP.png"},{
     "name":"React",
-    "icone":""},{
+    "icone":"/IconeDataTechno/react.png"},{
     "name":"VueJs",
-    "icone":""},{
+    "icone":"/IconeDataTechno/Vuejs.png"},{
     "name":"Spring",
-    "icone":""},{
+    "icone":"/IconeDataTechno/spring.png"},{
     "name":"Hibernate",
-    "icone":""},{
+    "icone":"/IconeDataTechno/java.png"},{
     "name":"Bootstrap",
-    "icone":""} 
+    "icone":"/IconeDataTechno/bootstrap.png"} 
   ]
 },
 {
   "categorie":"Api", 
   "items":[{
     "name":"leaflet",
-    "icone":""}
+    "icone":"/IconeDataTechno/leaflet.png"}
   ]
 },
 {
   "categorie":"Test / Integration", 
   "items":[{
     "name":"Jenkins",
-    "icone":""},{
+    "icone":"/IconeDataTechno/jenkins.png"},{
     "name":"Junit",
-    "icone":""},{
+    "icone":"/IconeDataTechno/test-réussi.png"},{
     "name":"Mockito",
-    "icone":""}
+    "icone":"/IconeDataTechno/Mockito.png"}
   ]
 },
 {
   "categorie":"BDD", 
   "items":[{
     "name":"mongoDb",
-    "icone":""},{
+    "icone":"/IconeDataTechno/mongodb.png"},{
     "name":"SQL",
-    "icone":""}
+    "icone":"/IconeDataTechno/SQL.png"}
   ]
 },
 {
   "categorie":"Cloud", 
   "items":[{
     "name":"aws",
-    "icone":""}
+    "icone":"/IconeDataTechno/AWS.png"}
   ]
 },
 {
   "categorie":"Conception/ concept",
   "items":[{
     "name":"USMD",
-    "icone":""},{
+    "icone":"/IconeDataTechno/motif-hexagonal.png"},{
     "name":"UML",
-    "icone":""},{
+    "icone":"/IconeDataTechno/document.png"},{
     "name":"Design patterns",
-    "icone":""},{
+    "icone":"/IconeDataTechno/flow.png"},{
     "name":"SOA",
-    "icone":""},{
+    "icone":"/IconeDataTechno/motif-hexagonal.png"},{
     "name":"SOP",
-    "icone":""},{
+    "icone":"/IconeDataTechno/motif-hexagonal.png"},{
     "name":"Rest",
-    "icone":""} 
+    "icone":"/IconeDataTechno/Rest.png"} 
   ]
 }
 ]            
