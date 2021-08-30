@@ -3,6 +3,7 @@ import anime from 'animejs/lib/anime.es.js';
 import  "./TechnologieDataListe.css";
 
 export class TechnologieDataListe extends React.Component{
+  myref = React.createRef();
 
   constructor(props){
     super(props);
@@ -10,27 +11,36 @@ export class TechnologieDataListe extends React.Component{
     this.handleClick = this.handleClick.bind(this);
   }
 
-  componentDidMount(){
 
-      anime({
-	targets: '.show',
+  componentDidMount(){
+  }
+
+  componentDidUpdate(){
+    var basicTimeline = anime.timeline();
+    basicTimeline
+      .add({
+	targets: this.myref.current,
 	translateX: 250,
 	rotate: '1turn',
 	backgroundColor: '#FFF',
 	duration: 800
-      });
-    }
+      })
+      .add({
+	targets: ".items-techno",
+	translateX: 0,
+	backgroundColor: '#FFF',
+	duration: 800
+      })
+    ;
+  }
+
 
   handleClick(){
-    console.log("handle click")
+    console.log("handle click isopen value : "+this.state.isopen)
     this.setState({ isopen : !this.state.isopen })
-    anime({
-	targets: '.show',
-	translateX: 250,
-	rotate: '1turn',
-	backgroundColor: '#FFF',
-	duration: 800
-      });
+    if(this.state.isopen){
+    }
+
   }
 
   render(){ 
@@ -44,6 +54,7 @@ export class TechnologieDataListe extends React.Component{
       { this.props.items.map(data=>(
 	<p 
 	className={this.state.isopen ? "items-techno show": "items-techno"} 
+	ref={this.myref}
 	>  
 	<span className="iconeTechno" 
 	style ={{backgroundImage:`url(${data.icone})`}} />

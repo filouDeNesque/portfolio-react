@@ -17,11 +17,12 @@
   margin-left:1em;
   margin-block-start:0;
   margin-block-end:0;
-display:none;
+  display:none;
+  transform:ranslateX(0px) rotate(0turn);
 }
 
 .show{
-display:block;
+  display:block;
 }
 
 .iconeTechno{
