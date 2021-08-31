@@ -11,6 +11,15 @@
   list-style:none;
 }
 
+@media (min-width: 1500px){
+  .contact-float-right{
+    right:20%;
+
+  }
+
+}
+
+
 .li-contact{
   position: relative;
   width: 25px;
