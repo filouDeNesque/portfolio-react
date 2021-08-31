@@ -11,22 +11,32 @@ function Contact(){
 
     <div className="contact-link-share">
     <ul>
+
+    <a href="./CV.pdf" download="CV.pdf">
     <li>
     <span 
     className="icone-contact"
     style={{backgroundImage:'url(./IconeContact/cv.png)'}}
-    /> CV </li>
+    /> CV</li>
+    </a> 
+
+    <a href="mailto:p.cuquemy@gmail.fr">
     <li>
     <span 
     className="icone-contact"
     style={{backgroundImage:'url(./IconeContact/mail.png)'}}
-    />  Mail: <a> p.cuquemy@gmail.com</a></li>
+    />  Mail:  p.cuquemy@gmail.com</li>
+    </a>
 
-    <li><span 
+
+    <a href="tel:+33768688436">
+    <li>
+    <span 
     className="icone-contact"
     style={{backgroundImage:'url(./IconeContact/phone.png)'}}
-
-    /> Téléphone: O7.68.68.84.36 </li>
+    /> Téléphone: O7.68.68.84.36 
+    </li>
+    </a>
 
     </ul>
     </div>
