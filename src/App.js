@@ -3,7 +3,7 @@ import Header from './components/Header';
 import Presentation from './components/Presentation';
 import TitleDivider from './components/TitleDivider';
 import Technologie from './components/Technologie';
-
+import EcoleInfos from './components/EcoleInfos';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
     <TitleDivider title="FORMATION" />
     <Technologie />
     <TitleDivider title="ECOLE" />
+   <EcoleInfos />
     <TitleDivider title="CONTACT" />
 
     {/* 
