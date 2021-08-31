@@ -1,0 +1,30 @@
+.Contact{
+  padding: 5% 17% 10% 17%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.Contact h2{
+  min-width:fit-content;
+}
+
+
+.Contact p {
+max-width:30%;
+
+}
+.contact-link-share ul li {
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor:pointer;
+  padding-top:1em;
+}
+.icone-contact{
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  background-size: cover;
+  background-position: center;
+  margin-right: 1em;
+}
