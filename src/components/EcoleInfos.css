@@ -1,7 +1,7 @@
 .EcoleInfos{
   display: flex;
   flex-wrap: wrap;
-  padding: 5% 17% 0 17%;
+  padding: 8% 17% 0 17%;
   justify-content: space-between;
 }
 
