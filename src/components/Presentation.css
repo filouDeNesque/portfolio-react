@@ -27,4 +27,16 @@
   flex-direction: column;
   max-width:65%;
 }
+@media (max-width:600px){
+	.Presentation h2{
+	  font-size:40px;
+
+	}
+.more-infos-section{
+  flex-direction:column;
+}
+.column-right{
+  max-width:none;
+}
+}
 

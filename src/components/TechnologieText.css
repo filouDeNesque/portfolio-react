@@ -37,3 +37,10 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+@media (max-width:600px){
+  .Recap, .Chiffre{
+    flex-wrap:wrap;
+    justify-content:center;
+  }	
+}
