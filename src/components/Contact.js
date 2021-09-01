@@ -20,7 +20,7 @@ function Contact(){
     /> CV</li>
     </a> 
 
-    <a href="mailto:p.cuquemy@gmail.fr">
+    <a href="mailto:p.cuquemy@gmail.com">
     <li>
     <span 
     className="icone-contact"
