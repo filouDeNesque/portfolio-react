@@ -9,7 +9,7 @@
 
 .Presentation h3{
   font-size: 50px;
-  
+
   font-weight:bold ;
 }
 .Presentation p{
@@ -28,15 +28,20 @@
   max-width:65%;
 }
 @media (max-width:600px){
-	.Presentation h2{
-	  font-size:40px;
+  .Presentation{
+    padding: 5% 23% 0;
 
-	}
-.more-infos-section{
-  flex-direction:column;
-}
-.column-right{
-  max-width:none;
-}
+  }
+  .Presentation h2{
+    font-size:25px;
+
+  }
+  .more-infos-section{
+    flex-direction:column;
+    margin-topi:4em;
+  }
+  .column-right{
+    max-width:none;
+  }
 }
 

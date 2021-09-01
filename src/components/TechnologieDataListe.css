@@ -4,7 +4,7 @@
   min-height:25px;
   margin-block-start:1em;
   margin-block-end:1em;
-min-width: 50%;
+  min-width: 50%;
 }
 
 .btn-techno-liste{
@@ -24,7 +24,7 @@ min-width: 50%;
 .show{
   display:block;
   text-align: center;
-   width: min-content;
+  width: min-content;
 }
 
 .iconeTechno{
@@ -40,12 +40,12 @@ min-width: 50%;
 }
 
 .buttons .dark {
-	background: #000;
-	left: 50%;
+  background: #000;
+  left: 50%;
 }
 .buttons a {
-	float: left; 
-	margin-right: 20px;
+  float: left; 
+  margin-right: 20px;
   margin-bottom: 20px;
 }
 a#link {position: absolute; left: 20px; bottom: 10px; text-decoration: none; color: #555; font-weight: bold;}
@@ -54,107 +54,110 @@ a#link {position: absolute; left: 20px; bottom: 10px; text-decoration: none; col
 /*------------------------------------------------------*/
 .btn,
 input[type="submit"]{
-	cursor: pointer;
-    border-radius: 0px;
-    text-decoration: none;
-    padding: 12px 18px;
-    font-size: 12px;
-    line-height: 19px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif; font-weight:400;
-    letter-spacing: 3px;
-    -webkit-transition: all .4s ease-in-out;
-       -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
-         -o-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
+  cursor: pointer;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 12px 18px;
+  font-size: 12px;
+  line-height: 19px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif; font-weight:400;
+  letter-spacing: 3px;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .btn-mid {
-    border-radius: 0px;
-    text-decoration: none;
-    padding: 14px 21px;
-    font-size: 13px;
-    line-height: 25px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif; font-weight:400;
-    letter-spacing: 3px;
-    -webkit-transition: all .4s ease-in-out;
-       -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
-         -o-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 14px 21px;
+  font-size: 13px;
+  line-height: 25px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif; font-weight:400;
+  letter-spacing: 3px;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .btn-big {
-    border-radius: 0px;
-    text-decoration: none;
-    padding: 18px 24px;
-    font-size: 14px;
-    line-height: 40px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif; font-weight:400;
-    letter-spacing: 3px;
-    -webkit-transition: all .4s ease-in-out;
-       -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
-         -o-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
+  border-radius: 0px;
+  text-decoration: none;
+  padding: 18px 24px;
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif; font-weight:400;
+  letter-spacing: 3px;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 .btn:hover,
 input[type="submit"]:hover{
-    -webkit-transition: all .4s ease-in-out;
-       -moz-transition: all .4s ease-in-out;
-        -ms-transition: all .4s ease-in-out;
-         -o-transition: all .4s ease-in-out;
-            transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 .btn-white{
-    border:solid 2px #fff;
-    background: transparent;
-    color: #fff !important;
+  border:solid 2px #fff;
+  background: transparent;
+  color: #fff !important;
 }
 .btn-white:hover{
-    border:solid 2px #fff;
-    background: #fff;
-    color: #1f1f1f !important;
+  border:solid 2px #fff;
+  background: #fff;
+  color: #1f1f1f !important;
 }
 
 .btn-dark,
 input[type="submit"]{
-    border:solid 2px #1f1f1f;
-    background: transparent;
-    color: #1f1f1f;
-    min-width: 250px;
+  border:solid 2px #1f1f1f;
+  background: transparent;
+  color: #1f1f1f;
+  min-width: 250px;
 }
 .btn-dark:hover,
 input[type="submit"]:hover,
 .btn-dark.active{
-    border:solid 2px #1f1f1f;
-    background: #1f1f1f;
-    color: #fff;
+  border:solid 2px #1f1f1f;
+  background: #1f1f1f;
+  color: #fff;
 }
 
 .btn-color{
-    background: transparent;
+  background: transparent;
 }
 .btn-color:hover{
-    color: #fff;
+  color: #fff;
 }
 
 
 @media  (max-width:600px){
-.TechnologieDataListe{
+  .TechnologieDataListe{
+min-width:217px;
+    flex-direction:column;
+    align-items:stretch;
+  }
+  .container-icone{
 
-flex-direction:column;
-align-items:stretch;
-}
-.container-icone{
-  
-  flex-wrap: wrap;
-}
-.show{
-  margin-top:10px;
-  display:flex;
-}
+    flex-wrap: wrap;
+  }
+  .show{
+    margin-top:10px;
+    display:flex;
+  }
+  .btn-dark{
+    min-width:172px;
+  }
 }

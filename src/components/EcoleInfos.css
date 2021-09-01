@@ -22,9 +22,16 @@
 }
 
 @media (max-width:600px){
+.EcoleInfos{
+padding: 8% 22% 0;
+}
 
   .ecole-container-column-right, .ecole-container-left{
     max-width:none;
     width: 100%;
+  }
+
+  .ecole-container-column-right ul{
+    border-left:solid black 1px;
   }
 }
