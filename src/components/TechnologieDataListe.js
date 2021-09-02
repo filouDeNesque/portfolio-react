@@ -37,11 +37,11 @@ export class TechnologieDataListe extends React.Component{
   render(){ 
     return(
       <div id="data-liste" className="TechnologieDataListe" >
-      <a href="#data-liste"
+      <button
       className="btn-techno-liste btn btn-dark btn-mid"
       onClick={this.handleClick}>
       {this.props.categorie}
-      </a>
+      </button>
       <div ref={this.container} className="container-icone">
       { this.props.items.map(data=>(
 	<p 

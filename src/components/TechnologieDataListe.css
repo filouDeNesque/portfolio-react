@@ -145,7 +145,7 @@ input[type="submit"]:hover,
 
 @media  (max-width:600px){
   .TechnologieDataListe{
-min-width:217px;
+min-width:226px;
     flex-direction:column;
     align-items:stretch;
   }
@@ -158,6 +158,8 @@ min-width:217px;
     display:flex;
   }
   .btn-dark{
-    min-width:172px;
+    width:226px;
+    min-width:226px;
+    z-index:2;
   }
 }
