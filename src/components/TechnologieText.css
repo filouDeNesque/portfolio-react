@@ -11,6 +11,7 @@
   text-align: center;
   padding-bottom: 6em;
   padding-top: 3em;
+  flex-wrap:wrap;
 }
 
 .Recap{
@@ -37,10 +38,22 @@
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+.Chiffre div{
+  margin-right:10px;
+  min-width:200px;
+
+}
 
 @media (max-width:600px){
   .Recap, .Chiffre{
     flex-wrap:wrap;
     justify-content:center;
-  }	
+  }
+  .Chiffre div{
+    min-width: 100%;
+  } 
+  .Recap .sp-recap{
+ margin-left:0;
+  }
+
 }

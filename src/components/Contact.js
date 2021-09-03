@@ -6,7 +6,7 @@ function Contact(){
     <div className="Contact"> 
     <h2>Au travail... </h2>
     <p>
-    Disponible dès maintenant pour rejoindre votre équipe. Je reste à l'écoute de vos sollicitations.  
+    Disponible dès à présent pour rejoindre votre équipe. Je reste à l'écoute de vos sollicitations.  
     </p>
 
     <div className="contact-link-share">

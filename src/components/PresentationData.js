@@ -5,7 +5,7 @@ function PresentationData() {
     <div className="PresentationData">
     <div className="dataColumn">
     <h2>02</h2>
-    <p>Année de reconversion</p>
+    <p>Années de reconversion</p>
     </div>
     <div className="dataColumn">
     <h2>100</h2>

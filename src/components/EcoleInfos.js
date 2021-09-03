@@ -6,11 +6,11 @@ function EcoleInfos(){
     <div className="EcoleInfos">
     <div className="ecole-container-left">
     <h2>Organisme formateur EQL </h2>
-    <p> L 'Afcepf (EQL) est un organisme français de formation professionnelle et un établissement d’enseignement supérieur délivrant des diplômes d’État inscrits au RNCP. Spécialisée dans le domaine informatique études et développement et la reconversion professionnelle, elle dispense trois formations de niveau Bac+4 à Bac+5. AFCEPF et EQL (Ecole de la Qualité Logicielle) forment ensemble un établissement de formation professionnelle</p>
+    <p> L 'AFCEPF (EQL) est un organisme français de formation professionnelle et un établissement d’enseignement supérieur délivrant des diplômes d’État inscrits au RNCP. Spécialisée dans le domaine informatique études et développement et la reconversion professionnelle, il dispense trois formations de niveau Bac+4 à Bac+5. AFCEPF et EQL (Ecole de la Qualité Logicielle) forment ensemble un établissement de formation professionnelle visant une autonomie rapide de l'étudiant</p>
     </div> 
     <div className="ecole-container-column-right">
     <h3>Histoire: </h3>
-    <p>L'Afcepf (Association française de conseil et d'éducation professionnelle) a été créée en 1984 avec l'appui de l'École Polytechnique Féminine. À l’origine, l’appellation de l’organisme était l’Association de Formation Continue de l’École Polytechnique Féminine. </p>
+    <p>L'AFCEPF (Association Française de Conseil et d'Education Professionnelle) a été créée en 1984 avec l'appui de l'École Polytechnique Féminine. À l’origine, l’appellation de l’organisme était l’Association de Formation Continue de l’École Polytechnique Féminine. </p>
     <h4>Titre délivré </h4>
     <ul>
     <li>Titre « Analyste informaticien » (Reconversion professionnelle)
