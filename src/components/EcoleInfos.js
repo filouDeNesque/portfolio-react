@@ -6,7 +6,7 @@ function EcoleInfos(){
     <div className="EcoleInfos">
     <div className="ecole-container-left">
     <h2>Organisme formateur EQL </h2>
-    <p> L 'AFCEPF (EQL) est un organisme français de formation professionnelle et un établissement d’enseignement supérieur délivrant des diplômes d’État inscrits au RNCP. Spécialisée dans le domaine informatique études et développement et la reconversion professionnelle, il dispense trois formations de niveau Bac+4 à Bac+5. AFCEPF et EQL (Ecole de la Qualité Logicielle) forment ensemble un établissement de formation professionnelle visant une autonomie rapide de l'étudiant</p>
+    <p> L 'AFCEPF (EQL) est un organisme français de formation professionnelle et un établissement d’enseignement supérieur délivrant des diplômes d’État inscrits au RNCP. Spécialisé dans le domaine informatique études et développement et la reconversion professionnelle, il dispense trois formations de niveau Bac+4 à Bac+5. AFCEPF et EQL (Ecole de la Qualité Logicielle) forment ensemble un établissement de formation professionnelle visant une autonomie rapide de l'étudiant</p>
     </div> 
     <div className="ecole-container-column-right">
     <h3>Histoire: </h3>
