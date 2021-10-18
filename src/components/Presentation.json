@@ -1,12 +1,12 @@
 [{
-  "Title":"Accroche",
-  "Paragraphe":"Bienvenue à tous. Je suis Paul Cuquémy. Développeur Full stack.  Enthousiaste et bienveillant, je saurai très vite m’intégrer à votre projet."
-},{
+  "Title": "Accroche",
+  "Paragraphe": "Bienvenue à tous. Je suis Paul Cuquémy. Développeur Full stack.  Enthousiaste et bienveillant, je saurai très vite m’intégrer à votre projet."
+}, {
 
-"Title": "Un peu plus",
-"Paragraphe":"Passionné par le développement informatique depuis toujours, j’ai formalisé cette passion au travers d’un cursus d’analyste informaticien et continue ma montée en compétence dans le cadre d’une formation d’architecte logiciel cette année."
-},{
+  "Title": "Un peu plus",
+  "Paragraphe": "Passionné par le développement informatique, depuis toujours, j’ai formalisé cette passion au travers d’un cursus d’analyste informaticien."
+}, {
 
-"Title": "Un peu plus",
-"Paragraphe":" Dans le cadre de cette formation proposée par l’EQL (École de qualité logicielle) j’ai renforcé mes connaissances dans les langages C#, .net, java, javascript. Je suis actuellement à la recherche d’un contrat de professionnalisation pour la période de septembre 2021 à décembre 2022 dans le but de concrétiser la validation d’un titre de développeur full stack niveau master 2. Curieux et dynamique, j’aime résoudre des problèmes et imaginer des solutions. "
-}]
+  "Title": "Un peu plus",
+  "Paragraphe": " Dans le cadre de cette formation proposée par l’EQL (École de Qualité Logicielle) j’ai renforcé mes connaissances dans les langages C#, .net, java, javascript.  Je recherche avant tout une entreprise dans laquelle je pourrais trouver un cadre de travail bienveillant et dynamique qui me permette de continuer à progresser. Par mes expériences passées, j’ai développé une aisance à l’oral qui me permet de communiquer facilement au sein d’une équipe et d’adapter mon discours, de vulgariser des réponses techniques à destination d’un client. Curieux et dynamique, j’aime résoudre des problèmes et imaginer des solutions."
+}]
