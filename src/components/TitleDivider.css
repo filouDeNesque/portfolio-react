@@ -14,7 +14,16 @@
     padding:5% 14% 0 14%;
   }
   .TitleDivider h2{
-    font-size :3rem;
+    font-size :2.5rem;
+  }
+
+}
+@media (max-width:800px){
+  .TitleDivider{
+    padding:5% 14% 0 14%;
+  }
+  .TitleDivider h2{
+    font-size :5rem;
   }
 
 }
