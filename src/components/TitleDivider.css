@@ -1,29 +1,42 @@
-.TitleDivider{
+.TitleDivider {
   padding: 5% 17% 0 17%;
-} 
+}
 
-.TitleDivider h2{
+.TitleDivider h2 {
   color: white;
   text-shadow: -9px 5px 15px rgb(0 0 0 / 19%);
-  font-size: 150px;
+  font-size: 6rem;
   text-align: center;
 
 }
-@media (max-width:600px){
-  .TitleDivider{
-    padding:5% 14% 0 14%;
+
+@media (max-width:800px) {
+  .TitleDivider {
+    padding: 5% 14% 0 14%;
   }
-  .TitleDivider h2{
-    font-size :2.5rem;
+
+  .TitleDivider h2 {
+    font-size: 4rem;
+  }
+} 
+
+@media (max-width:600px) {
+  .TitleDivider {
+    padding: 5% 14% 0 14%;
+  }
+
+  .TitleDivider h2 {
+    font-size: 2.5rem;
   }
 
 }
-@media (max-width:800px){
-  .TitleDivider{
-    padding:5% 14% 0 14%;
+@media (max-width:400px) {
+  .TitleDivider {
+    padding: 5% 14% 0 14%;
   }
-  .TitleDivider h2{
-    font-size :5rem;
+
+  .TitleDivider h2 {
+    font-size: 2rem;
   }
 
 }

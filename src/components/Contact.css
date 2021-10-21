@@ -2,6 +2,7 @@
   padding: 5% 17% 10% 17%;
   display: flex;
   justify-content:space-between;
+  flex-wrap: wrap;
 }
 
 .Contact h2{
@@ -38,6 +39,7 @@
   .Contact{
     flex-wrap:wrap;
     padding: 5% 14% 10% 14%;
+    justify-content: center;
   }
   .Contact p {
     min-width:270px;

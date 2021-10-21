@@ -1,47 +1,59 @@
-.Presentation{
+.Presentation {
   padding: 5% 17% 0 17%;
 }
 
-.Presentation h2{
+.Presentation h2 {
   font-size: 80px;
   font-weight: normal;
 }
 
-.Presentation h3{
+.Presentation h3 {
   font-size: 50px;
 
-  font-weight:bold ;
+  font-weight: bold;
 }
-.Presentation p{
+
+.Presentation p {
   font-size: 14px;
   line-height: 2em;
   letter-spacing: 2px;
 }
-.more-infos-section{
+
+.more-infos-section {
   display: flex;
   justify-content: space-around;
   margin-top: 15em;
 }
-.column-right{
+
+.column-right {
   display: flex;
   flex-direction: column;
-  max-width:65%;
+  max-width: 65%;
 }
-@media (max-width:600px){
-  .Presentation{
+
+@media (max-width:900px) {
+  .Presentation h2{
+    font-size: 3rem;
+  }
+}
+
+@media (max-width:600px) {
+  .Presentation {
     padding: 5% 23% 0;
 
   }
-  .Presentation h2{
-    font-size:25px;
+
+  .Presentation h2 {
+    font-size: 25px;
 
   }
-  .more-infos-section{
-    flex-direction:column;
-    margin-top:4em;
+
+  .more-infos-section {
+    flex-direction: column;
+    margin-top: 4em;
   }
-  .column-right{
-    max-width:none;
+
+  .column-right {
+    max-width: none;
   }
 }
-

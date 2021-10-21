@@ -1,13 +1,21 @@
-.Technologie{
-  display:flex;
-  flex-wrap: wrap; 
+.Technologie {
+  display: flex;
+  flex-wrap: wrap;
   padding: 5% 17% 0 17%;
-justify-content:space-between;
+  justify-content: space-between;
 }
-@media(max-width:600px){
-  .Technologie{
-    overflow:hidden;
-    padding:5% 17% 0 23%;
+
+@media(max-width:600px) {
+  .Technologie {
+    overflow: hidden;
+    padding: 5% 17% 0 23%;
+
   }
 
+}
+
+@media (max-width:800px) {
+  .Technologie {
+    justify-content: center;
+  }
 }
